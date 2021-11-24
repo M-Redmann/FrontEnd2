@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+.cookies,.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+h2{
+    color: white;
+}
+.cookies{
+    position: static;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+}
+.animals{
+    position: sticky;
+    top: 0px;
+    background-color: rgba(37, 37, 37, 0.5);
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+}
+.box{
+    width:40vw;
+    height:40vw;
+    position:relative;
+    z-index: -1;
+    
+}
+.img_ds{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.img_ds:active{
+    opacity:0;
+}
+.img1{
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
+    background-size: cover;
+}
+.img2{
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/zebra.jpg?raw=true);
+    background-size: cover;  
+}
+.img3{
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/lew.jpg?raw=true);
+    background-size: cover;
+}
+.img4{
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/nosorozec.jpg?raw=true);
+    background-size: cover;
+}
+.box div{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.wrapper{
+    /* border:2px solid rgb(0, 0, 0); */
+    min-height: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper div{
+    border:2px solid black;
+    width: 35vw;
+    height: 35vw;
+}
+.footer{
+    position: fixed;
+    bottom: 0 !important;
+    max-height: 20px;
+    min-width: 100vw;;
+    background-color: black;
+    color: white;
+}
+ @media(max-width:720px){
+     .content div{
+         width: 60vw;
+         height: 60vw;
+         margin-top: 5vh;
+}
+
+
+}
