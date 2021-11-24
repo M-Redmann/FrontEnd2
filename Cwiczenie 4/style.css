@@ -27,6 +27,7 @@ h2{
     z-index: 1;
 }
 .box{
+    border: 2px solid black;
     width:40vw;
     height:40vw;
     position:relative;
@@ -81,7 +82,7 @@ h2{
     color: white;
 }
  @media(max-width:720px){
-     .box div{
+     .box{
          width: 60vw;
          height: 60vw;
          margin-top: 5vh;
