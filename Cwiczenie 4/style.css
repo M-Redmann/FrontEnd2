@@ -16,7 +16,6 @@ h2{
     color: white;
     text-align: center;
     padding: 10px;
-    z-index: 1;
 }
 .animals{
     position: sticky;
@@ -25,12 +24,13 @@ h2{
     border: 2px solid black;
     text-align: left;
     padding: 10px;
+    z-index: 1;
 }
 .box{
     width:40vw;
     height:40vw;
     position:relative;
-    z-index: -1;
+    /* z-index: -1; */
     
 }
 .img_ds{
