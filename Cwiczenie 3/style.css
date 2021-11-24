@@ -1,0 +1,95 @@
+*{box-sizing: border-box;}
+:root{font-size: 18px;}
+body{
+
+  margin:0;
+  font-size:18px;
+
+
+}
+header{
+    border:2px solid black;
+    text-align: right;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 15px;
+}
+    .opis{
+        border:2px solid black;
+        display: flex;
+        font-size: 2rem;
+        width: 500px;
+        flex: 1;
+        text-align: center;
+
+    }
+    .sprite{
+        border:red;
+        width:500px;
+        height:200px;
+        background-image:url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/logo_sprites.jpg?raw=true);
+        box-sizing: unset;
+    }
+    .sprite:hover{
+        border:yellow;
+        background-position:0 -200px;
+    }
+    .sprite:active{
+    border:blue;
+    background-position: 0 -400px;
+  }
+.absolutne{
+    border: 2px solid black
+}
+    .chartX,.chartY{
+        border:2px solid black;
+        display:flex;
+        justify-content: space-around;
+        padding: 15px;
+        
+    }
+    .chartX div{
+        border:2px solid #000;
+        min-width: 10%;
+    }
+    .chartX div:nth-child(1){height:2in;}
+    .chartX div:nth-child(2){height:2cm;}
+    .chartX div:nth-child(3){height:2pc;}
+    .chartX div:nth-child(4){height:2mm;}
+    .chartX div:nth-child(5){height:2pt;}
+  
+
+.relatywne{
+    border: 2px solid black;
+}
+  .chartY{
+    flex-direction: column;
+    min-height:70vh;
+  }
+  .chartY div{
+    border:2px solid #000;
+    min-height: 10vh;
+  }
+  .chartY div:nth-child(1){width:10%;}
+  .chartY div:nth-child(2){width:10em;}
+  .chartY div:nth-child(3){width:10vw;}
+  .chartY div:nth-child(4){width:1vh;}
+  .chartY div:nth-child(5){width:1vh;}
+
+.czcionki{
+    
+    text-align: left;
+    border: solid black;
+}
+.red{
+    color: red;
+    font-size: 2em;
+    display: flex;
+    justify-content: flex-end;
+}
+.h2{
+    padding: 15px;
+}
