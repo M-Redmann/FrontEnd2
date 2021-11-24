@@ -72,11 +72,6 @@ h2{
     justify-content: space-around;
     align-items: center;
 }
-.wrapper div{
-    border:2px solid black;
-    width: 35vw;
-    height: 35vw;
-}
 .footer{
     position: fixed;
     bottom: 0 !important;
@@ -86,7 +81,7 @@ h2{
     color: white;
 }
  @media(max-width:720px){
-     .content div{
+     .box div{
          width: 60vw;
          height: 60vw;
          margin-top: 5vh;
